@@ -2,66 +2,11 @@
 <html>
 <head>
     <script src="dist/bundle.js" type="module"></script>
+<!--    <script src="build/app.js" type="module"></script>-->
 </head>
 <body>
 
-<!--<script>-->
-<!--    let config = {-->
-<!--        type: Phaser.AUTO,-->
-<!--        width: 800,-->
-<!--        height: 600,-->
-<!--        physics: {-->
-<!--            default: 'arcade',-->
-<!--            arcade: {-->
-<!--                gravity: {y: 200}-->
-<!--            }-->
-<!--        },-->
-<!--        scene: {-->
-<!--            preload: preload,-->
-<!--            create: create-->
-<!--        }-->
-<!--    };-->
-
-<!--    let game = new Phaser.Game(config);-->
-
-<!--    function preload () {-->
-
-<!--        game.scale.scaleMode = Phaser.S-->
-<!--        game.scale.pageAlignHorizontally = true;-->
-<!--        game.scale.pageAlignVertically = true;-->
-
-<!--        this.load.setBaseURL('http://labs.phaser.io');-->
-
-<!--        this.load.image('sky', 'assets/skies/space3.png');-->
-<!--        this.load.image('logo', 'assets/sprites/phaser3-logo.png');-->
-<!--        this.load.image('red', 'assets/particles/red.png');-->
-<!--    }-->
-
-<!--    function create ()-->
-<!--    {-->
-<!--        this.add.image(400, 300, 'sky');-->
-
-<!--        var particles = this.add.particles('red');-->
-
-<!--        var emitter = particles.createEmitter({-->
-<!--            speed: 100,-->
-<!--            scale: { start: 1, end: 0 },-->
-<!--            blendMode: 'ADD'-->
-<!--        });-->
-
-<!--        var logo = this.physics.add.image(400, 100, 'logo');-->
-
-<!--        logo.setVelocity(100, 200);-->
-<!--        logo.setBounce(1, 1);-->
-<!--        logo.setCollideWorldBounds(true);-->
-
-<!--        emitter.startFollow(logo);-->
-<!--    }-->
-<!--</script>-->
-
-<body>
-<h1>TypeScript HTML App</h1>
-
+<body style="background-color: rgba(5,3,41,0.72)">
 <div id="content"></div>
 <script type="text/javascript" src="bundle.js"></script></body>
 
